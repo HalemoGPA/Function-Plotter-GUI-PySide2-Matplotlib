@@ -13,6 +13,12 @@ This project is a simple function plotter application built using PySide2 for th
 - GUI built using PySide2.
 - Plotting powered by Matplotlib.
 
+
+## Compatibility
+
+This project is developed and tested using Python 3.9. Due to compatibility issues with PySide2 in newer Python versions, it is highly recommended to use Python 3.9 for running this application.
+
+
 ## Installation
 
 1. Clone the repository:
