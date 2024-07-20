@@ -1,4 +1,5 @@
 import sys
+import os
 import re
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,6 +14,9 @@ from PySide2.QtWidgets import (
     QMessageBox,
 )
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+
+# Suppress font warnings
+os.environ["QT_LOGGING_RULES"] = "qt.qpa.fonts.warning=false"
 
 
 class FunctionPlotter(QMainWindow):
