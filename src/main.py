@@ -76,6 +76,12 @@ class FunctionPlotter(QMainWindow):
             self.show_error_message("Min value must be less than Max value.")
             return
 
+        if ("log10" in function or "sqrt" in function) and min_x < 0:
+            self.show_error_message(
+                "Min value must be non-negative for functions with log10 or sqrt."
+            )
+            return
+
         x = np.linspace(min_x, max_x, 400)
         try:
             y = eval(self.prepare_function(function, x))
