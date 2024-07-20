@@ -98,4 +98,4 @@ python src/main.py
 
 
 ## automated tests. run some automated tests using `pytest`
-![tests passed](screenshots\ex10.JPG)
+![tests passed](screenshots/ex10.JPG)
