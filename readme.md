@@ -88,14 +88,14 @@ python src/main.py
 - **Function:** `x`
 - **Range:** `-inf` to `inf`
 - **Expected Output:** Straight 45deg line from -inf to +inf    <br>  
-![Wrong Input](screenshots/ex8.jpg)
+![-inf to inf range](screenshots/ex8.jpg)
 
 ### Constant Function Formula
 - **Function:** `5`
 - **Range:** `-10` to `10`
 - **Expected Output:** Straight horizontal line from -inf to +inf    <br>  
-![Wrong Input](screenshots/ex9.jpg)
+![constant function](screenshots/ex9.jpg)
 
 
 ## automated tests. run some automated tests using `pytest`
-![img](screenshots\ex10.jpg)
+![tests passed](screenshots\ex10.jpg)
