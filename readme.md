@@ -6,10 +6,12 @@ This project is a simple function plotter application built using PySide2 for th
 
 ## Features
 
-- Input a mathematical function of `x` (e.g., `5*x^3 + 2*x`).
-- Specify the range for `x` (min and max values).
-- Validate inputs to ensure correct function syntax and valid range.
-- Plot the function using Matplotlib.
+- Input a function of `x`, e.g., `5*x^3 + 2*x`.
+- Specify minimum and maximum values for `x`.
+- Supports operators: `+`, `-`, `/`, `*`, `^`, `log10()`, `sqrt()`.
+- Input validation with user-friendly error messages.
+- GUI built using PySide2.
+- Plotting powered by Matplotlib.
 
 ## Installation
 
