@@ -45,42 +45,42 @@ python src/main.py
 - **Function:** `5*x^3 + 2*x`
 - **Range:** `0` to `10`
 - **Expected Output:** Parabolic curve.   <br>   
-![Basic Function](screenshots/ex1.jpg)
+![Basic Function](screenshots/ex1.JPG)
 
 
 ### Invalid Character in Function
 - **Function:** `5*x^3 + 2*x + !`
 - **Range:** `0` to `10`
 - **Expected Output:** Error message: "Function contains invalid characters."   <br>   
-![Invalid Character](screenshots/ex2.jpg)
+![Invalid Character](screenshots/ex2.JPG)
 
 
 ### Complex Formula Function
 - **Function:** `5*x^3 + 2*x -4/x + 7`
 - **Range:** `-10` to `10`
 - **Expected Output:** Combined plot of Cubic and rational functions.   <br>   
-![Complex Formula](screenshots/ex3.jpg)
+![Complex Formula](screenshots/ex3.JPG)
 
 
 ### Using Sqrt & log10 in Function
 - **Function:** `2*x^4 - log10(x) + sqrt(x)`
 - **Range:** `0` to `50`
 - **Expected Output:** Combined plot of square root, logarithm, and quadratic function.   <br>   
-![Complex Formula](screenshots/ex4.jpg)
+![Complex Formula](screenshots/ex4.JPG)
 
 
 ### Negative Input to sqrt or log10
 - **Function:** `2*x^4 - log10(x) + sqrt(x)`
 - **Range:** `-50` to `500`
 - **Expected Output:** Error message: "Min value must be non-negative for functions with log10 or sqrt."   <br>  
-![Negative Input](screenshots/ex5.jpg)
+![Negative Input](screenshots/ex5.JPG)
 
 
 ### Wrong Input for Min and Max Values
 - **Function:** `x`
 - **Range:** `a` to `2`
 - **Expected Output:** Error message: "Min and Max values must be numbers."    <br>  
-![Wrong Input](screenshots/ex7.jpg)
+![Wrong Input](screenshots/ex7.JPG)
 
 
 
@@ -88,14 +88,14 @@ python src/main.py
 - **Function:** `x`
 - **Range:** `-inf` to `inf`
 - **Expected Output:** Straight 45deg line from -inf to +inf    <br>  
-![-inf to inf range](screenshots/ex8.jpg)
+![-inf to inf range](screenshots/ex8.JPG)
 
 ### Constant Function Formula
 - **Function:** `5`
 - **Range:** `-10` to `10`
 - **Expected Output:** Straight horizontal line from -inf to +inf    <br>  
-![constant function](screenshots/ex9.jpg)
+![constant function](screenshots/ex9.JPG)
 
 
 ## automated tests. run some automated tests using `pytest`
-![tests passed](screenshots\ex10.jpg)
+![tests passed](screenshots\ex10.JPG)
