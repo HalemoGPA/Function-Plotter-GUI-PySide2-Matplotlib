@@ -29,7 +29,7 @@ This project is developed and tested using Python 3.9. Due to compatibility issu
 
 2. Create a virtual environment:
     ```bash
-    python -m venv venv
+    python -m venv master_micro
     source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
     ```
 
