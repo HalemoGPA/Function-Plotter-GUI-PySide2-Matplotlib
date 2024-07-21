@@ -128,3 +128,6 @@ pytest
 - **Range:** ` ` to `5`
 - **Expected Output:** Error message: "Min and Max values cannot be empty."       <br>  
 ![constant function](screenshots/ex13.JPG)
+
+## Screenshot of running the automated tests
+![automated tests](screenshots/ex14.JPG)
