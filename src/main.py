@@ -101,6 +101,10 @@ class FunctionPlotter(QMainWindow):
             return
 
         x = np.linspace(min_x, max_x, 400)
+        if "log10" in function:
+            x = np.where(
+                x == 0, 1e-15, x
+            )  # Add a small value to x where x is 0 if log10 is in the function
         try:
             y = eval(self.prepare_function(function, x))
         except Exception as e:
