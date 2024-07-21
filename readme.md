@@ -30,7 +30,7 @@ This project is developed and tested using Python 3.9. Due to compatibility issu
 2. Create a virtual environment:
     ```bash
     python -m venv master_micro
-    source master_micro/bin/activate   # On Windows, use `master_micro\Scripts\activate`
+    master_micro\Scripts\activate   # On macOS and Linux, use `source master_micro/bin/activate`
     ```
 
 3. Install the required dependencies:
