@@ -18,6 +18,11 @@ This project is a simple function plotter application built using PySide2 for th
 
 This project is developed and tested using Python 3.9. Due to compatibility issues with PySide2 in newer Python versions, it is highly recommended to use Python 3.9 for running this application.
 
+Download Python 3.9.6 from the official Python website:
+   [Python 3.9.6](https://www.python.org/downloads/release/python-396/)
+
+> The version used in this project is python3.9.6 that is mentioned above.  
+
 
 ## Installation
 
