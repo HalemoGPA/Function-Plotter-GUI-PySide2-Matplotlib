@@ -45,6 +45,13 @@ To run the application, execute the following command:
 python src/main.py
 ```
 
+## Running the Tests
+
+To run the tests, use the following command:
+```bash
+pytest
+```
+
 ## Examples
 
 ### Basic Function Input
@@ -103,5 +110,21 @@ python src/main.py
 ![constant function](screenshots/ex9.JPG)
 
 
-## automated tests. run some automated tests using `pytest`
-![tests passed](screenshots/ex10.JPG)
+### Empty Function
+- **Function:** ` `
+- **Range:** ` ` to ` `
+- **Expected Output:** Error message: "Function cannot be empty."       <br>  
+![constant function](screenshots/ex11.JPG)
+
+### Min value is larger than Max value
+- **Function:** `x`
+- **Range:** `10` to `5`
+- **Expected Output:** Error message: "Min value must be less than Max value."       <br>  
+![constant function](screenshots/ex12.JPG)
+
+
+### Empty Min value
+- **Function:** `x`
+- **Range:** ` ` to `5`
+- **Expected Output:** Error message: "Min and Max values cannot be empty."       <br>  
+![constant function](screenshots/ex13.JPG)
