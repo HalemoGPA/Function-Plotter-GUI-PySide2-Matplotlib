@@ -23,8 +23,8 @@ This project is developed and tested using Python 3.9. Due to compatibility issu
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/FunctionPlotterProject.git
-    cd FunctionPlotterProject
+    git clone https://github.com/HalemoGPA/master_micro_task.git
+    cd master_micro_task
     ```
 
 2. Create a virtual environment:
