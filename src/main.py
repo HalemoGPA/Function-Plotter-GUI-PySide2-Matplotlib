@@ -13,6 +13,7 @@ from PySide2.QtWidgets import (
     QPushButton,
     QMessageBox,
 )
+from PySide2.QtCore import Signal
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
 # Suppress font warnings
@@ -26,6 +27,8 @@ class FunctionPlotter(QMainWindow):
     This class handles the GUI elements, user inputs, and plotting of mathematical functions
     using PySide2 for the GUI and Matplotlib for plotting.
     """
+
+    error_message_signal = Signal(str)
 
     def __init__(self):
         super().__init__()
@@ -165,6 +168,7 @@ class FunctionPlotter(QMainWindow):
         - message (str): The error message to display.
         """
         QMessageBox.critical(self, "Error", message)
+        self.error_message_signal.emit(message)
 
 
 if __name__ == "__main__":
