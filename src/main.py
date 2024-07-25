@@ -99,7 +99,10 @@ class FunctionPlotter(QMainWindow):
                 "Min value must be non-negative for functions with log10 or sqrt."
             )
             return
-
+        # deal with the case of division by zero
+        if "1/x" in function and 0 in [min_x, max_x]:
+            self.show_error_message("Division by zero is not allowed.")
+            return
         x = np.linspace(min_x, max_x, 400)
         if "log10" in function:
             x = np.where(
